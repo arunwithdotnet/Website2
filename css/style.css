@@ -2240,7 +2240,7 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-panel {
 	color: #ffffff;
 	box-shadow: none;
-	background: #222d4f;
+	/*background: #222d4f;*/
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
