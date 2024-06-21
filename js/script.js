@@ -1309,7 +1309,7 @@
 							if (isNoviBuilder || !isValidated)
 								return false;
 
-							$output.html('Submitting...').addClass('active');
+							//$output.html('Submitting...').addClass('active');
 						}
 					});
 
@@ -1376,6 +1376,7 @@
 
 		// RD Mailform
 		if (plugins.rdMailForm.length) {
+			alert('hola');
 			var i, j, k,
 				msg = {
 					'MF000': 'Successfully sent!',
@@ -1452,8 +1453,8 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
-								output.addClass("active");
+								//output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								//output.addClass("active");
 							}
 						} else {
 							return false;
