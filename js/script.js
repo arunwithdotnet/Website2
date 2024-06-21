@@ -1376,7 +1376,7 @@
 
 		// RD Mailform
 		if (plugins.rdMailForm.length) {
-			alert('hola');
+			//alert('hola');
 			var i, j, k,
 				msg = {
 					'MF000': 'Successfully sent!',
