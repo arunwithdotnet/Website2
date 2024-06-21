@@ -31,7 +31,7 @@
  *     4.17 Lightgallery
  *     4.18 Material Parallax
  *   5 Components
- *     5.1 Typography
+ *     5.1 events
  *     5.2 Banners
  *     5.3 Brand
  *     5.4 Links
@@ -9747,7 +9747,7 @@ div.jp-creative .jp-playlist-item {
 	}
 }
 
-/** @section Typography */
+/** @section events */
 body {
 	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	font-size: 14px;
